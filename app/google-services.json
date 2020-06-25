@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "746602536028",
+    "firebase_url": "https://payalkirana-f032a.firebaseio.com",
+    "project_id": "payalkirana-f032a",
+    "storage_bucket": "payalkirana-f032a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746602536028:android:0c49e09e5f64dadba1da99",
+        "android_client_info": {
+          "package_name": "com.example.payalkirana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746602536028-qurt31kt98nd3bdlgjnjf58nhqld8b5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payalkirana",
+            "certificate_hash": "3043dd38d64feff13a11bc81374237d1d270f41f"
+          }
+        },
+        {
+          "client_id": "746602536028-1v9epqlo43hduipi85r74ba8krtf1c9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuPlr-LVBzF-OeEfMxtlXUzkYQZpwlJP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746602536028-1v9epqlo43hduipi85r74ba8krtf1c9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
