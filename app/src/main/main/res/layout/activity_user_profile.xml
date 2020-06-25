@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:padding="20dp"
+        android:background="#5BA5DF">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/payal"
+            android:id="@+id/profile_pic"
+            android:layout_centerVertical="true">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/main"
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_pic"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:includeFontPadding="false"
+            android:text=" Payal Kirana Stores"
+            android:textSize="20sp"></TextView>
+
+
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_pic"
+            android:fontFamily="sans-serif-condensed-light"
+            android:includeFontPadding="false"
+            android:text="Devendrabhai Rupani Mobile: 9714215074"
+            android:textSize="20sp"></TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:layout_width="match_parent"
+        android:padding="20dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardBackgroundColor="#fece2f"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="30dp"
+                    android:layout_width="30dp"
+                    />
+
+                <TextView
+
+                    android:id="@+id/payment_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/baloo"
+                    android:includeFontPadding="false"
+
+                    android:text="Username"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/payment_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/payment_label"
+                    android:layout_centerHorizontal="true"
+                    android:includeFontPadding="false"
+                    android:text="Tushar"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardBackgroundColor="#fece2f"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="30dp"
+                    android:layout_width="30dp"
+                    />
+
+                <TextView
+
+                    android:id="@+id/payment_label1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/baloo"
+                    android:includeFontPadding="false"
+
+                    android:text="Available Dollar"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/payment_desc1"
+                    android:includeFontPadding="false"
+                    android:layout_below="@id/payment_label1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="$1.25"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/l1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-Mail"
+            android:id="@+id/l2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/l3"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PhoneNumber">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/l4"
+            app:passwordToggleEnabled="true"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:background="#fece2f"
+            
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:text="UPDATE" />
+    </LinearLayout>
+    </LinearLayout>       
+</ScrollView>
